@@ -1,5 +1,5 @@
-# enigma ownership
+# Enigma ownership
 
-No router is in this repository. `README.md` is unchanged.
+Enigma computes routes from world graph snapshots and functional travel profiles. It applies the routing policy and reports exclusions. It does not ingest hardware readings or persist venue state.
 
-Routing policy is frozen in conduit `contracts/` on `cursor/wave-0-contract-freeze-90fb`, package version `wave0.2`. Do not copy or redefine it here.
+Conduit `contracts/` is the wire contract authority. Enigma does not copy or redefine those schemas.
